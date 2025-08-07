@@ -3,7 +3,7 @@ import shippingRoute from './route/shippingroute';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import cors from 'cors';
-import { Request, Response } from 'express';
+
 import http from 'http';
 
 dotenv.config();

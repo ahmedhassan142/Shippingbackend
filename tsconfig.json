@@ -6,10 +6,10 @@
     // "incremental": true,   
     //  "outDir": "./dist",
     "rootDir": "./src",
-    "outDir": "./dist",
+    "outDir": "./build",
     "baseUrl": ".",
     "paths": {
-      "@routes/*": ["src/routes/*"]
+      "@/*": ["src/*"]
     },    
   
     "moduleResolution": "node",                      /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
